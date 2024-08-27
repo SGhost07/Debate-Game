@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debate Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container" class="game-container">
+        <div class="character-container">
+            <img src="images/yunjin.png" alt="User Character" class="character">
+            <p class="character-name">Yun Jin</p>
+            <div id="yunjin-chat" class="chat-bubble">Yunjin: </div>
+        </div>
+        
+        <div class="character-container">
+            <img src="images/ruolan.png" alt="Enemy Character" class="character">
+            <p class="character-name">Ruo Lan</p>
+            <div id="ruolan-chat" class="chat-bubble">Ruolan: </div>
+        </div>       
+    </div>
+    
+    <div class="button-container">
+        <button id="debate-button">Debate</button>
+    </div>
+    
+    <div id="health-bar-container" class="health-bar-container">
+        <div id="health-bar" class="health-bar"></div>
+    </div>
+
+    <!-- Defeat message -->
+    <div id="defeat-message" class="defeat-message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
